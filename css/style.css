@@ -1,0 +1,31 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'PT Sans';
+    font-size: 2rem;
+}
+:root{
+    --font-color-white: #fff;
+    --font-color-black: rgb(0, 0, 0);
+    --background-color: #252529;
+    --btn-color-primary: #b90415;
+    --btn-color-secondary: #103063;
+
+}
+.btn{
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+.btn--primary{
+    background-color: var(--btn-color-primary);
+    color: white;
+   
+}
+.btn--secondary{
+    background-color: var(--btn-color-secondary);
+    color: white;
+}
