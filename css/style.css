@@ -17,8 +17,7 @@ body{
 }
 .container{
     max-width: 1080px;
-    text-align: center;
-    margin: 0 auto;
+   
 }
 /* Button */
 
@@ -47,8 +46,17 @@ body{
 /* Blocks */
 
 .block{
-    margin: 0 2rem;
-   
+    padding: 3rem;
+    text-align: center;
+    margin: auto;
+}
+.block--dark{
+    background-color: black;
+    color: white;
+}
+.block--gray{
+    background-color: rgb(48, 48, 48);
+    color: white;
 }
 .text--center{
     text-align: center;
