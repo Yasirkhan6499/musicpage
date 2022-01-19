@@ -202,3 +202,18 @@ display: flex;
         flex-direction: row;
     }
   }
+
+
+  /* Showcase heading */
+  .showcase-block{
+      
+      background: url("/images/showcase@2x.webp");
+      background-size: cover;
+      background-position: right;
+      
+  }
+  .showcase__heading{
+      text-align: center;
+      color: white;
+      font-size: 3rem;
+  }
