@@ -16,7 +16,7 @@ body{
 
 }
 .container{
-    max-width: 1080px;
+    max-width: 1180px;
    
 }
 /* Button */
@@ -25,7 +25,7 @@ body{
     text-decoration: none;
     text-transform: capitalize;
     display: inline-block;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 1.5rem;
 }
 .btn--primary{
@@ -37,6 +37,7 @@ body{
     background-color: var(--btn-color-secondary);
     color: white;
 }
+
 @media screen and (min-width: 746px) {
     .btn{
         font-size: 1.7rem;
@@ -52,11 +53,11 @@ body{
 }
 
 .block--dark{
-    background-color: black;
+    background-color: rgb(40, 41, 39);
     color: white;
 }
 .block--gray{
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(33, 35, 36);
     color: white;
 }
 .text--center{
@@ -252,3 +253,22 @@ display: flex;
         display: block;
     }
   }
+
+  /* Trial-block */
+ .trial-block h2{
+     font-size: 4.3rem;
+     margin-top: 0;
+ }
+ .trial-block h3{
+    font-size: 3.5rem;
+    
+}
+.trial-block__caption{
+    
+font-size: 1.5rem;
+margin-top: 3rem;
+}
+.trial-block__image{
+    width: 100%;
+    
+}
