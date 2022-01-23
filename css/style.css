@@ -43,7 +43,10 @@ body{
         font-size: 1.7rem;
     }
 }
-
+/* images */
+.block__image{
+    width: 100%;
+}
 /* Blocks */
 
 .block{
@@ -267,8 +270,4 @@ display: flex;
     
 font-size: 1.5rem;
 margin-top: 3rem;
-}
-.trial-block__image{
-    width: 100%;
-    
 }
