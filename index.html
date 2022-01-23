@@ -13,61 +13,192 @@
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>A Musical Page</title>
   </head>
   <body>
-    <section class="block--dark">
-      <div class="container footer">
-        <div class="footer__list">
-          <ul>
-            <li>Shop & Learn</li>
-            <li><a class="link footer__link" href="#">Music</a></li>
-            <li><a class="link footer__link" href="#">movies</a></li>
-            <li><a class="link footer__link" href="#">Shows</a></li>
-            <li><a class="link footer__link" href="#">Apps</a></li>
-            <li><a class="link footer__link" href="#">Gift Cards</a></li>
-          </ul>
-        </div>
-        <div class="footer__list">
-          <ul>
-            <li>Orange Store</li>
-            <li><a class="link footer__link" href="#">Find a Store</a></li>
-            <li><a class="link footer__link" href="#">Today at Orange</a></li>
-            <li><a class="link footer__link" href="#">Orange Camp</a></li>
-            <li><a class="link footer__link" href="#">Financing</a></li>
-            <li><a class="link footer__link" href="#">Order Status</a></li>
-          </ul>
-        </div>
-        <div class="footer__list">
-          <ul>
-            <li>Education & Business</li>
-            <li><a class="link footer__link" href="#">Music</a></li>
-            <li><a class="link footer__link" href="#">movies</a></li>
-            <li><a class="link footer__link" href="#">Shows</a></li>
-            <li><a class="link footer__link" href="#">Apps</a></li>
-            <li><a class="link footer__link" href="#">Gift Cards</a></li>
-          </ul>
-        </div>
-        <div class="footer__list">
-          <ul>
-            <li>About Orange</li>
-            <li><a class="link footer__link" href="#">Newsroom</a></li>
-            <li><a class="link footer__link" href="#">Orange Leadership</a></li>
-            <li><a class="link footer__link" href="#">Investors</a></li>
-            <li><a class="link footer__link" href="#">Events</a></li>
-            <li><a class="link footer__link" href="#">Contact Orange</a></li>
-          </ul>
-        </div>
+    <header>
+      <div class="menu collapsible">
+        <ul class="list list-inline list--black">
+          <li class="list__item sacle-up">Overview</li>
+          <li class="list__item sacle-up">myTunes</li>
+          <li class="list__item sacle-up">Music</li>
+          <li class="list__item sacle-up">Video</li>
+          <li class="list__item sacle-up">Gift Cards</li>
+          <i class="fas fa-bars icon"></i>
+        </ul>
       </div>
-      <div class="copy-right">
-        <p>Copyright &copy; 2022 Orange myTunes</p>
+    </header>
+
+    <section class="block--dark showcase-block">
+      <div class="container block" data-aos="fade-up">
+        <header class="showcase__heading"><h1>myTunes</h1></header>
+        <h2>Your music, movies, and TV shows take center stage.</h2>
+        <p>
+          myTunes is the best way to organize and enjoy the music, movies, and
+          TV shows you already have — and shop for the ones you want. Enjoy all
+          the entertainment myTunes has to offer on your Mac and PC.
+        </p>
       </div>
     </section>
+
+    <section class="block--gray trial-block">
+      <div class="container block block--gray">
+        <div data-aos="slide-left">
+          <h2>Music</h2>
+          <h3>45 million songs. Zero ads.</h3>
+          <p>
+            Stream over 45 million songs, ad-free. Or download albums and tracks
+            to listen to offline. All the music in your personal myTunes library
+            — no matter where it came from — lives right alongside the Orange
+            Music catalog. Start your free three-month trial with no commitment,
+            and cancel anytime.
+          </p>
+          <a href="#" class="btn btn--primary sacle-up">Start Your trial Now</a>
+          <p class="trial-block__caption">
+            Orange Music is available in myTunes, and for iOS and Android
+            devices.
+          </p>
+        </div>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/images/mockup@1x.webp 1x, /images/mockup@2x.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="/images/mockup@1x.png 1x, /images/mockup@2x.png 2x"
+          />
+          <img
+            class="block__image"
+            data-aos="slide-right"
+            src="/images/mockup@2x.png"
+            alt="mockup"
+          />
+        </picture>
+      </div>
+    </section>
+
+    <section class="block read-block">
+      <div class="container block">
+        <div data-aos="slide-right">
+          <h2>The movie and TV collection you always wished for. Granted.</h2>
+          <p>
+            With over 100,000 movies and TV shows to choose from, there’s always
+            something great to watch on myTunes and if you watch on Orange TV
+            4K, you’ll be able to enjoy a tremendous selection of your favorite
+            content in 4K HDR. So get ready to enjoy episodes of your favorite
+            TV shows or hit movies you’ve been waiting to see — anytime,
+            anywhere. Just tap to play, or even download if you’re going
+            somewhere you won’t have Wi-Fi.
+          </p>
+          <a href="#" class="btn btn--secondary sacle-up">Read More</a>
+        </div>
+        <img
+          class="block__image"
+          src="/images/mockup2.png"
+          data-aos="slide-left"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <section class="block block--dark entertainment-block">
+      <div class="container block" data-aos="fade-up">
+        <h2>A world of entertainment. Available wherever you are.</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          veniam nobis, nisi ut expedita, doloribus reprehenderit explicabo non
+          velit repellat alias saepe inventore repellendus? Molestias suscipit
+          eos tempora? Quae quaerat cumque in veritatis impedit dolorum sapiente
+          recusandae minima quo aperiam quam, excepturi quasi totam ad quas?
+          Ipsam laudantium soluta delectus!
+        </p>
+      </div>
+    </section>
+
+    <div class="container card-block">
+      <div class="grid">
+        <img class="sacle-up" src="/images/cards.png" alt="" />
+        <div class="block secondary text--left">
+          <h2 class="block__heading">Gift Cards</h2>
+          <p class="block__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et labore
+            voluptas, sapiente ullam ipsam quas amet harum veniam mollitia,
+            dolorem doloribus optio, soluta similique ducimus. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Eos minima iure ipsa possimus
+            laboriosam enim esse ex nostrum quas ullam dicta pariatur veniam
+            qui, quod doloribus facere rerum mollitia modi!
+          </p>
+          <p class="block__text">
+            Already have an Orange MyTunes Music Gift Card?
+          </p>
+          <a class="link" href="#">> Redeem</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <section class="block--dark">
+        <div class="container footer">
+          <div class="footer__list">
+            <ul>
+              <li>Shop & Learn</li>
+              <li><a class="link footer__link" href="#">Music</a></li>
+              <li><a class="link footer__link" href="#">movies</a></li>
+              <li><a class="link footer__link" href="#">Shows</a></li>
+              <li><a class="link footer__link" href="#">Apps</a></li>
+              <li><a class="link footer__link" href="#">Gift Cards</a></li>
+            </ul>
+          </div>
+          <div class="footer__list">
+            <ul>
+              <li>Orange Store</li>
+              <li><a class="link footer__link" href="#">Find a Store</a></li>
+              <li><a class="link footer__link" href="#">Today at Orange</a></li>
+              <li><a class="link footer__link" href="#">Orange Camp</a></li>
+              <li><a class="link footer__link" href="#">Financing</a></li>
+              <li><a class="link footer__link" href="#">Order Status</a></li>
+            </ul>
+          </div>
+          <div class="footer__list">
+            <ul>
+              <li>Education & Business</li>
+              <li><a class="link footer__link" href="#">Music</a></li>
+              <li><a class="link footer__link" href="#">movies</a></li>
+              <li><a class="link footer__link" href="#">Shows</a></li>
+              <li><a class="link footer__link" href="#">Apps</a></li>
+              <li><a class="link footer__link" href="#">Gift Cards</a></li>
+            </ul>
+          </div>
+          <div class="footer__list">
+            <ul>
+              <li>About Orange</li>
+              <li><a class="link footer__link" href="#">Newsroom</a></li>
+              <li>
+                <a class="link footer__link" href="#">Orange Leadership</a>
+              </li>
+              <li><a class="link footer__link" href="#">Investors</a></li>
+              <li><a class="link footer__link" href="#">Events</a></li>
+              <li><a class="link footer__link" href="#">Contact Orange</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="copy-right">
+          <p>Copyright &copy; 2022 Orange myTunes</p>
+        </div>
+      </section>
+    </footer>
+
     <script
       src="https://kit.fontawesome.com/792220bc51.js"
       crossorigin="anonymous"
     ></script>
     <script src="js/main.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
