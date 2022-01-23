@@ -47,6 +47,13 @@ body{
 .block__image{
     width: 100%;
 }
+
+/*   links  */
+.link{
+    text-decoration: none;
+  
+    
+}
 /* Blocks */
 
 .block{
@@ -71,7 +78,7 @@ body{
 }
 
 .block__heading{
-    font-size: 1.5rem;
+    font-size: 2.6rem;
 }
 .block--primary{
 color: var(--font-color-white);
@@ -81,7 +88,12 @@ color: var(--font-color-white);
 }
 
 .block__text{
-font-size: 1.2rem;
+font-size: 1.5rem;
+}
+
+.block__text:last-of-type{
+    padding-bottom: 2rem;
+    border-bottom: 0.4px solid rgb(82, 82, 82);
 }
 @media screen and (min-width: 746px) {
     .block__heading{
@@ -270,4 +282,66 @@ display: flex;
     
 font-size: 1.5rem;
 margin-top: 3rem;
+}
+
+
+/* Entertainment block */
+
+.entertainment-block{
+    background: url(/images/entertainment.jpeg);
+    background-size:cover;
+    background-position: bottom;
+    background-repeat:no-repeat;
+    padding: 10rem 0;
+}
+
+/* card block */
+.card-block{
+    margin: auto;
+}
+.card-block a{
+    color: rgb(75, 75, 75);
+    font-size: 1.7rem;
+}
+
+
+/* footer */
+.footer{
+    display: none;
+}
+.copy-right{
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0.3rem;
+    background-color: #333;
+}
+
+@media screen and (min-width: 700px){
+  
+    .footer{
+        display: flex;
+        justify-content:space-evenly;
+        text-align: left;
+        margin: auto;
+    }
+    .footer__list{
+      width: 250px;
+    }
+    .footer ul{
+        list-style: none;
+        
+    }
+    .footer li{
+        margin-bottom: -1rem;
+    }
+    .footer li:first-of-type{
+        border-bottom: 1px solid rgba(172, 172, 172, 0.363);
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+    }
+    .footer__link{
+        color: rgb(185, 185, 185);
+        font-size: 1.5rem;
+        
+    }
 }
