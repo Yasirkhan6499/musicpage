@@ -144,7 +144,9 @@ background-repeat:no-repeat;
 
 /* menu */
 .menu{
-    position: relative;
+    position: fixed;
+    display: inline-block;
+    width: 100%;
     
 }
 .menu .list__item:hover{
