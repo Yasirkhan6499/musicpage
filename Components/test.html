@@ -31,7 +31,7 @@
     </header>
 
     <section class="block--dark showcase-block">
-      <div class="container block">
+      <div class="container block" data-aos="fade-up">
         <header class="showcase__heading"><h1>myTunes</h1></header>
         <h2>Your music, movies, and TV shows take center stage.</h2>
         <p>
@@ -44,21 +44,25 @@
 
     <section class="block--gray trial-block">
       <div class="container block block--gray">
-        <h2>Music</h2>
-        <h3>45 million songs. Zero ads.</h3>
-        <p>
-          Stream over 45 million songs, ad-free. Or download albums and tracks
-          to listen to offline. All the music in your personal myTunes library —
-          no matter where it came from — lives right alongside the Orange Music
-          catalog. Start your free three-month trial with no commitment, and
-          cancel anytime.
-        </p>
-        <a href="#" class="btn btn--primary">Start Your trial Now</a>
-        <p class="trial-block__caption">
-          Orange Music is available in myTunes, and for iOS and Android devices.
-        </p>
+        <div data-aos="slide-left">
+          <h2>Music</h2>
+          <h3>45 million songs. Zero ads.</h3>
+          <p>
+            Stream over 45 million songs, ad-free. Or download albums and tracks
+            to listen to offline. All the music in your personal myTunes library
+            — no matter where it came from — lives right alongside the Orange
+            Music catalog. Start your free three-month trial with no commitment,
+            and cancel anytime.
+          </p>
+          <a href="#" class="btn btn--primary sacle-up">Start Your trial Now</a>
+          <p class="trial-block__caption">
+            Orange Music is available in myTunes, and for iOS and Android
+            devices.
+          </p>
+        </div>
         <picture>
-          <source
+          <sourcedata-aos
+            ="slide-right"
             type="image/webp"
             srcset="/images/mockup@1x.webp 1x, /images/mockup@2x.webp 2x"
           />
@@ -66,30 +70,42 @@
             type="image/png"
             srcset="/images/mockup@1x.png 1x, /images/mockup@2x.png 2x"
           />
-          <img class="block__image" src="/images/mockup@2x.png" alt="mockup" />
+          <img
+            class="block__image"
+            data-aos="slide-right"
+            src="/images/mockup@2x.png"
+            alt="mockup"
+          />
         </picture>
       </div>
     </section>
 
     <section class="block read-block">
       <div class="container block">
-        <h2>The movie and TV collection you always wished for. Granted.</h2>
-        <p>
-          With over 100,000 movies and TV shows to choose from, there’s always
-          something great to watch on myTunes and if you watch on Orange TV 4K,
-          you’ll be able to enjoy a tremendous selection of your favorite
-          content in 4K HDR. So get ready to enjoy episodes of your favorite TV
-          shows or hit movies you’ve been waiting to see — anytime, anywhere.
-          Just tap to play, or even download if you’re going somewhere you won’t
-          have Wi-Fi.
-        </p>
-        <a href="#" class="btn btn--secondary">Read More</a>
-        <img class="block__image" src="/images/mockup2.png" alt="" />
+        <div data-aos="slide-right">
+          <h2>The movie and TV collection you always wished for. Granted.</h2>
+          <p>
+            With over 100,000 movies and TV shows to choose from, there’s always
+            something great to watch on myTunes and if you watch on Orange TV
+            4K, you’ll be able to enjoy a tremendous selection of your favorite
+            content in 4K HDR. So get ready to enjoy episodes of your favorite
+            TV shows or hit movies you’ve been waiting to see — anytime,
+            anywhere. Just tap to play, or even download if you’re going
+            somewhere you won’t have Wi-Fi.
+          </p>
+          <a href="#" class="btn btn--secondary sacle-up">Read More</a>
+        </div>
+        <img
+          class="block__image"
+          src="/images/mockup2.png"
+          data-aos="slide-left"
+          alt=""
+        />
       </div>
     </section>
 
     <section class="block block--dark entertainment-block">
-      <div class="container block">
+      <div class="container block" data-aos="fade-up">
         <h2>A world of entertainment. Available wherever you are.</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
@@ -101,6 +117,27 @@
         </p>
       </div>
     </section>
+
+    <div class="container card-block">
+      <div class="grid">
+        <img class="sacle-up" src="/images/cards.png" alt="" />
+        <div class="block secondary text--left">
+          <h2 class="block__heading">Gift Cards</h2>
+          <p class="block__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et labore
+            voluptas, sapiente ullam ipsam quas amet harum veniam mollitia,
+            dolorem doloribus optio, soluta similique ducimus. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Eos minima iure ipsa possimus
+            laboriosam enim esse ex nostrum quas ullam dicta pariatur veniam
+            qui, quod doloribus facere rerum mollitia modi!
+          </p>
+          <p class="block__text">
+            Already have an Orange MyTunes Music Gift Card?
+          </p>
+          <a class="link" href="#">> Redeem</a>
+        </div>
+      </div>
+    </div>
 
     <footer>
       <section class="block--dark">
@@ -153,6 +190,7 @@
         </div>
       </section>
     </footer>
+
     <script
       src="https://kit.fontawesome.com/792220bc51.js"
       crossorigin="anonymous"
